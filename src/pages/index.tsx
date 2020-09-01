@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 
+import Logo from '../assets/rocketseat.svg';
+
 const Home: React.FC = () => {
   return (
     <div>
@@ -9,6 +11,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
+        <Logo />
         <h1>ON / OFF</h1>
       </main>
     </div>
