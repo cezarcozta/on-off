@@ -1,6 +1,6 @@
 # PRATICE - WEB
 
-![](https://github.com/cezarcozta/onoff/blob/master/src/assets/ON_OFF.gif?raw=true)
+![onoff](https://github.com/cezarcozta/on-off/blob/master/src/assets/ON%20_%20OFF.gif)
 
 ## Techs and Tools
 
