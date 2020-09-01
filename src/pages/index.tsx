@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Logo from '../assets/rocketseat.svg';
+import LigthBulb from '../assets/lightbulb.svg';
 
 const Home: React.FC = () => {
   return (
@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       </Head>
 
       <main>
-        <Logo />
+        <LigthBulb />
         <h1>ON / OFF</h1>
       </main>
     </div>
