@@ -9,7 +9,10 @@ export default createGlobalStyle`
 
   body {
     background: ${props => props.theme.colors.background};
+    font-size: 16px;
     color: ${props => props.theme.colors.text};
-    font: 400 16px Roboto, sans-serif;
+    font-family: 400 16px Roboto, sans-serif;
   }
 `;
+
+/** foi largado aqui, falta o theme switch */

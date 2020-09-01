@@ -1,11 +1,18 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { ThemeContext } from 'styled-components';
 import Head from 'next/head';
+import Switch from 'react-switch';
+import { shade } from 'polished';
 
 import LigthBulb from '../assets/lightbulb.svg';
-import Power from '../assets/power-off-solid.svg';
-import { Container, Button } from '../styles/pages/Home';
+import { Container } from '../styles/pages/Home';
 
-const Home: React.FC = () => {
+interface Props {
+  toggleTheme(): void;
+}
+
+const Home: React.FC<Props> = ({ toggleTheme }) => {
+  const { colors, title } = useContext(ThemeContext)
   return (
     <Container>
       <Head>
@@ -15,9 +22,17 @@ const Home: React.FC = () => {
       <LigthBulb />
       <h1>ReactJS Change Theme</h1>
       <p>A ReactJS + Next.js Light/Dark Change Theme button.</p>
-      <Button>
-        <Power />
-      </Button>
+      <Switch
+        onChange={toggleTheme}
+        checked={title === 'light'}
+        checkedIcon={false}
+        uncheckedIcon={false}
+        height={10}
+        width={40}
+        handleDiameter={20}
+        offColor={shade(0.25, colors.primary)}
+        onColor={colors.secundary}
+      />
     </Container>
   );
 }
