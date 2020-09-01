@@ -9,6 +9,10 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
+  .switch{
+    flex: 1;
+  }
+
   svg {
     width: 300px;
     height: 300px;
@@ -28,24 +32,5 @@ export const Container = styled.div`
     margin-top: 24px;
     flex: 1;
     color: ${props => props.theme.colors.text};
-  }
-`;
-
-export const Button = styled.button`
-  background: ${props => props.theme.colors.background};
-  color: ${props => props.theme.colors.primary};
-  border: 0;
-
-  transition: 0.2s;
-
-  svg {
-    width: 100px;
-    height: 100px;
-
-    margin-bottom: 40px;
-  }
-
-  :hover{
-    opacity: 0.2;
   }
 `;

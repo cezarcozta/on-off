@@ -21,7 +21,7 @@ const Home: React.FC<Props> = ({ toggleTheme }) => {
 
       <LigthBulb />
       <h1>ReactJS Change Theme</h1>
-      <p>A ReactJS + Next.js Light/Dark Change Theme button.</p>
+      <p>A ReactJS + Next.js Light/Dark Change Theme Switcher.</p>
       <Switch
         onChange={toggleTheme}
         checked={title === 'light'}
@@ -29,6 +29,7 @@ const Home: React.FC<Props> = ({ toggleTheme }) => {
         uncheckedIcon={false}
         height={10}
         width={40}
+        className="switch"
         handleDiameter={20}
         offColor={shade(0.25, colors.primary)}
         onColor={colors.secundary}
