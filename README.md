@@ -24,7 +24,7 @@
 
 ```bash
   # Clone this repository.
-  $ git clone https://github.com/cezarcozta/onoff.git
+  $ git clone https://github.com/cezarcozta/on-off.git
 
 
   # Access repository cloned folder
