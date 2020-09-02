@@ -1,6 +1,8 @@
 # PRATICE - WEB
 
-![onoff](https://github.com/cezarcozta/on-off/blob/master/src/assets/ON%20_%20OFF.gif)
+<div align="center">
+  <img src="https://github.com/cezarcozta/on-off/blob/master/src/assets/ON%20_%20OFF.gif" alt ="on-off"/>
+</div>
 
 ## Techs and Tools
 
@@ -17,6 +19,9 @@
 - [Babel](https://babeljs.io/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [next-images](https://www.npmjs.com/package/next-images)
+- [polished](https://www.npmjs.com/package/polished)
+- [react-switch](https://www.npmjs.com/package/react-switch)
 
 ### Getting Started
 
@@ -49,5 +54,3 @@
   - [Twitter@cezarcozta](www.twitter.com/cezarcozta)
   - [Instagram@cezarcozta](www.instagram.com/cezarcozta)
   - [Facebook/cezarcozta](www.facebook.com/cezarcozta)
-
-
