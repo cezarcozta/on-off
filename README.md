@@ -33,7 +33,7 @@
 
 
   # Access repository cloned folder
-  $ cd onoff
+  $ cd on-off
 
   # Install all dependencies
   $ yarn
