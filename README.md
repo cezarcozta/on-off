@@ -1,7 +1,12 @@
-# PRATICE - WEB
+# PRATICE - frontend WEB
 
-<div align="center">
-  <img src="https://github.com/cezarcozta/on-off/blob/master/src/assets/ON%20_%20OFF.gif" alt ="on-off"/>
+<div
+  align="center"
+>
+  <img
+    src="https://github.com/cezarcozta/on-off/blob/master/src/assets/ON%20_%20OFF.gif"
+    alt ="on-off"
+  />
 </div>
 
 ## Techs and Tools
