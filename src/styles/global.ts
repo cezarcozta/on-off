@@ -14,5 +14,3 @@ export default createGlobalStyle`
     font-family: 400 16px Roboto, sans-serif;
   }
 `;
-
-/** foi largado aqui, falta o theme switch */
